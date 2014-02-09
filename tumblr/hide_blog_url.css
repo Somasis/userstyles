@@ -1,0 +1,6 @@
+@-moz-document domain("www.tumblr.com") {
+#open_blog_link { display: none !important; }
+.blog_title { top: 12px !important; }
+.popover_blogs { top: 7px !important; }
+}
+

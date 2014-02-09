@@ -1,0 +1,4 @@
+@-moz-document domain("www.tumblr.com") {
+.post_avatar { box-shadow: 0px 2px 3px rgba(0,0,0,0.42); }
+#posts .post.post_full { box-shadow: 0px 2px 3px rgba(0,0,0,0.42); }
+}

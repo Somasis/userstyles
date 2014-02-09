@@ -1,0 +1,18 @@
+@-moz-document domain("www.tumblr.com") {
+.post_full.is_conversation .conversation_lines .chat_line, .post_full.is_conversation .conversation_lines .chat_line strong {
+    font-family: "Droid Sans Mono Slashed", "Droid Sans Mono", monospace !important;
+}
+
+.post_full.is_conversation .conversation_lines .chat_line {
+    border-top: 1px solid #d5d9dd !important;
+    padding: 12px !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    border-left: 1px solid #d5d9dd !important;
+    border-right: 1px solid #d5d9dd !important;
+}
+
+.post_full.is_conversation .conversation_lines .chat_line:last-child {
+    border-bottom: 1px solid #d5d9dd !important;
+}
+}

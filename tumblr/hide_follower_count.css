@@ -1,0 +1,5 @@
+@-moz-document domain("www.tumblr.com") {
+a.followers span.count{
+display:none;
+}
+}

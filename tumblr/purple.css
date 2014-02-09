@@ -1,0 +1,78 @@
+@-moz-document domain("www.tumblr.com") {
+body {
+  background-image: url('') !important;
+  background: #775B87;
+  background-repeat: repeat !important;
+}
+
+#xpreview-container {
+  background: #AC93C1 !important;
+  border-color: #5c4370;
+}
+
+#content {
+  background: #5c4370;
+}
+
+#header .selection_nipple {
+  border-bottom-color: #5c4370;
+}
+
+a.follow {
+  border-color: #5c4370 !important;
+  background: #897499 !important;
+  color: #6D5C7C !important;
+}
+
+a.follow:hover {
+  background: #9174A8 !important;
+  color: #eee !important;
+}
+
+.search_form_row {
+  background: transparent;
+}
+
+.post_full .post_permalink {
+  background-image: url('') !important;
+}
+
+.post_full .post_permalink:before {
+  border-right-color: #68517A;
+}
+
+.radar .radar_footer .radar_avatar:before,.right_column:after { display: none }
+
+.xkit-tag, .is_me, .is_friend, #xkit-quick-tags-window .xkit-tag-other, #xkit-quick-tags-window .xkit-tag,.note.is_following {
+  background-color: #EBE5EE !important;
+  color: #5c4370 !important;
+}
+  
+.xkit-tag, .notes .note, .is_me,.is_friend .part_response blockquote,.is_friend {
+  border-color: #D6C8D9 !important;
+}
+    
+.xkit-tag, .is_friend:hover {
+  background-color: #EDE8EF !important;
+}
+
+#x1cpostage_reblog:hover, #x1cpostage_queue:hover, #x1cpostage_draft:hover, #x1cpostage_quick_tags .xkit-tag:hover, #xkit-quick-tags-window .xkit-tag:hover {
+  background-color: #FCF6FF !important;
+}
+
+.chrome.blue {
+  border-color: #A779C6 !important;
+  background: #A08DAB !important;
+}
+
+.controls_section.user_list li a:before { display:none; }
+
+div.ui_follow:hover, .controls_section li .follow:hover { background: inherit; }
+
+.count canvas {
+  -webkit-filter: sepia(90%) hue-rotate(230deg);
+}
+.search_results_container .result_link:hover, .popover_menu_item:hover, .tumblelog_popover .tumblelog_menu_popover ul li:hover { background: #FCF6FF !important; }
+
+.plexi.show.color { background: rgba(63, 43, 65, 0.89) !important; }
+}

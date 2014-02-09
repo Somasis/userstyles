@@ -1,0 +1,14 @@
+@-moz-document domain("www.tumblr.com") {
+.plexi { visibility: hidden !important; z-index: 0 !important; }
+.post_avatar_link.blog_avatar { box-shadow: none !important; }
+.v_center_inner {
+    visibility: visible !important;
+    z-index: 9999999999!important;
+    width: auto;
+}
+
+}
+
+@-moz-document regexp(".*www.tumblr.com/edit/.*") {
+.plexi { visibility: visible !important; z-index: 9999999 !important; }
+}

@@ -1,0 +1,33 @@
+@-moz-document domain("www.tumblr.com"), domain("freehostedscripts.net") {
+.notification .avatar_frame::before, .notes .note .avatar_frame::before,
+#toaster .frame.like::before, #toaster .frame.reply::before,
+#toaster .frame.follower::before, #toaster .frame.reblog::before,
+.ui_avatar .frame::before, #webcam_container .control_btn:after,
+.search_popover .more_results_link,
+.search_popover .search_results_container .search_results_section:last-child .popover_menu_item:last-child,
+.search_popover .search_results_container .search_results_section:last-child .popover_menu_item:last-child .result,
+.search_popover .search_results_container .search_results_section:last-child .popover_menu_item:last-child .result_link,
+.post .post_info a.reblog_follow_button::before, * {
+    border-radius: 0px !important;
+}
+
+
+.post_full .post_permalink {
+    background-image: 
+url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB90GFhIXEwbZ6uQAAABgSURBVEjH7ZTBCQAhDATNlpH+a0sb+pVDuDMZ7+X8FJkVidva5W9sXkREz4rc3Z57ejtQQV9ugMnJAO28ISYnApSZAkxeCVBljjF5JkDET8TkOwEiuwSTn+iiJZU2vbAMZ6kL0BF5vSUAAAAASUVORK5CYII=) 
+!important;
+}
+
+a.reblog_follow_button, .share_social_button {
+    display: none !important;
+}
+
+.post .post_info a.reblog_follow_button {
+    font-size: 7px;
+}
+
+#webcam_container .control_btn, #webcam_container .snap_btn a.photo_btn,
+#webcam_container .snap_btn a.gif_btn {
+    border-radius: 25px !important;
+}
+}

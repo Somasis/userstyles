@@ -1,0 +1,5 @@
+@-moz-document domain("www.tumblr.com") {
+.sponsored_post {
+    display: none;
+}
+}
