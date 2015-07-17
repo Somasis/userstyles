@@ -1,4 +1,4 @@
-@-moz-document domain("www.tumblr.com") {
 @import url(://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@-moz-document domain("www.tumblr.com") {
 * { font-family: 'Droid Sans'; }
 }
